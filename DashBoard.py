@@ -3,10 +3,14 @@ import pandas as pd
 import os
 import numpy as np
 
-st.set_page_config(page_title="FakeNews Detector", page_icon="📰", layout="wide")
-
-if "page" not in st.session_state:
-    st.session_state["page"] = "dashboard"
+#st.set_page_config(page_title="FakeNews Detector", page_icon="📰", layout="wide")
+st.set_page_config(
+    page_title="FakeNews Detector",
+    page_icon="📰",
+    layout="wide",
+)
+#if "page" not in st.session_state:
+    #st.session_state["page"] = "dashboard"
 ## Style Dashboard 
 st.markdown(
     """
