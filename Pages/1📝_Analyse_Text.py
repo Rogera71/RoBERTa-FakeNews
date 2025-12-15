@@ -7,7 +7,7 @@ import pandas as pd
 from transformers import RobertaForSequenceClassification, RobertaTokenizerFast, pipeline
 from lime.lime_text import LimeTextExplainer
 
-st.session_state["Page"] = "Text Analysis"
+st.session_state["page"] = "Text Analysis"
 
 # STYLE GLOBAL
 st.markdown(
